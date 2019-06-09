@@ -1,4 +1,17 @@
-package org.lasencinas.factoyMethod;
+package org.lasencinas;
 
-public class Lavadora {
+public abstract class Lavadora {
+
+    protected boolean tieneTambor;
+    protected boolean tieneMandos;
+    protected String  tipoCarga;
+
+    public void ponerTambor() {
+        tieneTambor = true;
+    }
+
+    public void ponerMandos() {
+        tieneMandos = true;
+    }
+
 }

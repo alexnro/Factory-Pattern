@@ -1,4 +1,8 @@
-package org.lasencinas.factoyMethod;
+package org.lasencinas;
 
-public class LavadoraCargaSuperior {
+public class LavadoraCargaSuperior extends Lavadora {
+
+    public LavadoraCargaSuperior() {
+        this.tipoCarga = "superior";
+    }
 }
