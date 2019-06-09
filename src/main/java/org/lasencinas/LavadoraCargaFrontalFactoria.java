@@ -3,7 +3,7 @@ package org.lasencinas;
 public class LavadoraCargaFrontalFactoria extends FactoriaLavadora {
 
     @Override
-    protected Lavadora creaLavadoraTipo() {
+    public Lavadora creaLavadoraTipo() {
         return new LavadoraCargaFrontal();
     }
 }
